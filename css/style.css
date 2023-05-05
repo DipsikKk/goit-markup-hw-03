@@ -264,9 +264,6 @@ img{
 
 /* second section */
 
-.second-section{
-    padding-bottom: 120px 0;
-}
 
 /* .second-section-decoration {
 
@@ -304,6 +301,9 @@ img{
     letter-spacing: 0.02em ;
 }
 
+.second-section {
+    padding: 120px 0;
+}
 
 
 /* third section */
@@ -318,6 +318,7 @@ img{
     margin-top: 72px;
     margin-bottom: 120px;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .about-project{
@@ -338,8 +339,9 @@ img{
 /* Four section */
 
 .four-section{
+
     background-color: #F4F4FD;
-    
+    padding: 120px 0;
 }
 
 .team-list{
@@ -369,6 +371,11 @@ img{
 
 .team-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-decorator{
+    padding: 32px 16px;
 }
 
 .team-name{
@@ -378,13 +385,19 @@ img{
         letter-spacing: 0.02em;
         color: #2E2F42;
 
+        text-align: center;
+        margin-bottom: 8px;
+
 }
+
 
 .team-text{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    text-align: center;
 }
 
 
