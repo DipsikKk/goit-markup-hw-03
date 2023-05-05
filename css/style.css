@@ -265,7 +265,7 @@ img{
 /* second section */
 
 .second-section{
-    padding-bottom: 120px;
+    padding-bottom: 120px 0;
 }
 
 /* .second-section-decoration {
@@ -279,9 +279,14 @@ img{
 .direction-list{
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.direciotion-list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .direction-list-cap{
@@ -290,6 +295,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+    margin-bottom: 8px;
 }
 
 .direction-list-text{
@@ -300,6 +307,11 @@ img{
 
 
 /* third section */
+
+.third-section{
+    padding-bottom: 120px;
+
+}
 
 .photo-project{
     display: flex;
@@ -317,7 +329,11 @@ img{
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
+
+        margin-bottom: 72px;
 }
+
+
 
 /* Four section */
 
