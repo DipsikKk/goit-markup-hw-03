@@ -93,7 +93,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
+    
 
 }
 
@@ -147,13 +147,14 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-right: 40px;
+    padding: 24px 0;
     
     
 }
-
+/* 
 .site-nav-item-link {
     padding: 24px 0;
-}
+} */
 
 .site-nav-item:last-child,
 .site-nav:last-child{
