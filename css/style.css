@@ -151,8 +151,8 @@ img{
     
     
 }
-/* 
-.site-nav-item-link {
+
+/* .site-nav a {
     padding: 24px 0;
 } */
 
@@ -163,8 +163,7 @@ img{
 
 .site-nav-item .link{
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 24px 0;
 }
 
 .site-nav-list
