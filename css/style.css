@@ -147,7 +147,7 @@ img{
     
 }
 
-.site-nav-item a{
+.site-nav-item-link {
     padding: 24px 0;
 }
 
@@ -240,6 +240,7 @@ img{
 }
 
 .order-service{
+    display: block;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -248,6 +249,11 @@ img{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    min-width: 196px;
+    height: 56px;
+
+    border: none;
+    border-radius: 4px;
 }
 
 .order-service:hover,
