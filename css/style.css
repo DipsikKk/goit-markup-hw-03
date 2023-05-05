@@ -237,6 +237,7 @@ img{
     letter-spacing: 0.02em;
     max-width: 496px;
     
+    
 }
 
 .order-service{
@@ -249,7 +250,7 @@ img{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    min-width: 196px;
+    min-width: 169px;
     height: 56px;
 
     border: none;
@@ -262,6 +263,18 @@ img{
 }
 
 /* second section */
+
+.second-section{
+    padding-bottom: 120px;
+}
+
+/* .second-section-decoration {
+
+} */
+
+.about{
+    margin-bottom: 72px;
+}
 
 .direction-list{
     display: flex;
@@ -283,6 +296,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em ;
 }
+
 
 
 /* third section */
