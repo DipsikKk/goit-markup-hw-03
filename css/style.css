@@ -93,6 +93,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 
 }
 
@@ -110,6 +111,8 @@ img{
 .page-header{
     border-bottom: 1px solid #E7E9FC;
 }
+
+
 
 /* flex */
 .nav-container{
@@ -412,9 +415,7 @@ img{
     padding: 96px 0 120px;
 }
 
-.portfolio a{
-    padding: 24px 0;
-}
+
 
 .portfolio-nav{
     display: flex;
@@ -505,6 +506,7 @@ list-style: none;
 /* Footer */
 .foot{
     background-color: var(--main-color);
+    padding: 100px 0;
 }
 
 .foot-moded{
